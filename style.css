@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+.main {
+    width: 700px;
+    height: 80%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.upper {
+    height: 45%;
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    padding: 40px;
+}
+
+.upper h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+
+.upper h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.upper p {
+    margin: 0 0 0px 0;
+    line-height: 25px;
+}
+
+.lower {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 40px;
+}
+.left * {
+    margin: 0 0 10px 0;
+}
+
+.price {
+    display: flex;
+    flex-flow: row;
+    height: 40px;
+    align-items: center;
+}
+.price h2{
+    font-size: 40px;
+    align-self: center;
+    line-height: 40px;
+}
+.price p{
+    font-size: 13px;
+    color: hsl(217, 28%, 85%);
+    margin: 0 0 0 10px;
+    align-self: center;
+    line-height: 40px;
+}
+
+.button {
+    width: 80%;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.right {
+    background-color: hsl(179, 55%, 60%);
+    color: white;
+    width: 50%;
+    padding: 40px;
+}
+
+.right h2 {
+    margin: 0 0 5px 0;
+}
+
+.right p {
+    font-size: 13px;
+    line-height: 20px;
+    color: hsl(219, 52%, 94%);
+}
+
+@media (max-width:600px) {
+    .main {
+        width: 90dvw;
+    }
+    .lower {
+        flex-flow: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+}
