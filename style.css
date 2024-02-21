@@ -112,7 +112,7 @@ body {
     color: hsl(219, 52%, 94%);
 }
 
-@media (max-width:600px) {
+@media (max-width:375px) {
     .main {
         width: 90dvw;
     }
